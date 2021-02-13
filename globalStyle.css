@@ -397,7 +397,8 @@
 }
 
 body {
-	background-color: #ecf0f1;
+	/* background-color: #ecf0f1; */
+	background-color: red;
 }
 
 .bio-holder9 .profile-card9 {
@@ -2231,6 +2232,9 @@ body {
 <style>
 
 	/* template5 */
+	.test {
+		
+	}
 	.testimonial5{
 		padding: 35px 50px;
 		margin: 0 20px 30px;
