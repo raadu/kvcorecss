@@ -743,7 +743,7 @@ body {
 	background-color: #eee;
 	background-image: url("https://unsplash.it/300?image=885");
 	position: relative;
-	z-index: 1;
+	/* z-index: 1; */
 }
 .image-border:after {
 	content: '';
