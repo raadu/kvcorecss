@@ -5,7 +5,7 @@
 		border-radius: 15%;
 	}
 	.areaBackgroundPic {
-        background-image: url('../images/area_background.png');
+        background-image: url('https://drive.google.com/uc?export=view&id=10wgKmn4pgjMexdom3g4ULO5U2ubC_5ba');
 		background-size: cover;
 		background-attachment: fixed;
     }
@@ -111,7 +111,7 @@
 		overflow: hidden;
 	}
 	.testimonialBackground {
-        background-image: url('../images/testimonial_background.png');
+        background-image: url('https://drive.google.com/uc?export=view&id=1JgCO6Deup8Tm1_aKQHQAdjFb_SJczs_i');
 		background-size: cover;
 		background-attachment: fixed;
     }
