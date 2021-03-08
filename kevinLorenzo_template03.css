@@ -162,24 +162,26 @@
 	overflow: hidden;
 	box-shadow: 0 1.25em 1em -0.5em #0005;
 	}
-	.text {
-	position: absolute;
-	right: 2%;
-	z-index: 9;
-	/* top: 50%; */
-	width: 35%;
-	text-align: center;
-	display: none;
-	transform: translateY(50%);
-}
-.text p {
-	font-size: 1.5em!important;
-	line-height: 1.5em;
-}
-.text h1 {
-	
-	color: #fff!important;
-}
+
+	/* .text class is commented because it conflicts with another class in kvcore */
+	/* Because of this class kvcore search dropdown text is changed */
+	/* .text {
+		position: absolute;
+		right: 2%;
+		z-index: 9;
+		width: 35%;
+		text-align: center;
+		display: none;
+		transform: translateY(50%);
+	} */
+	/* .text p {
+		font-size: 1.5em!important;
+		line-height: 1.5em;
+	} */
+	/* .text h1 {
+		
+		color: #fff!important;
+	} */
 
 .center-holder {
 	position: absolute;
