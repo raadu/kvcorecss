@@ -1,0 +1,68 @@
+/* CUSTOM UI Starts */
+/* body {
+    font-family: "Lato","Montserrat","Open Sans",Helvetica,sans-serif;
+    font-size: 17px;
+} */
+
+.information-bar {
+	background-color: #181F25;
+	background-image: linear-gradient(to right, #0e1216, #222c34);
+	text-align: center;
+	padding: 0.5rem;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 2;
+	font-family: "Playfair Display",Georgia,serif;
+	color: rgba(255,255,255,0.7);
+}
+
+.intro-container {
+	background-color: #181F25;
+	padding: 2%;
+}
+
+.intro-card {
+	background: linear-gradient(135deg, transparent 25px, white 25px);
+	padding: 4%;
+	margin-bottom: 3%;
+}
+
+.image-box {
+	border: 1px solid #ddd;
+	padding: 2%;
+}
+
+.font-style {
+	font-weight: 300;
+}
+
+.text-small {
+	font-family: "Raleway",Helvetica,sans-serif;
+	font-size: 1.2rem;
+	color: #333;
+	text-align: center;
+}
+
+
+.text-big {
+	font-family: "Playfair Display",Georgia,serif;
+	color: #2499ed;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	text-align: center;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.text-big::after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 50%;
+	width: 30px;
+	height: 1px;
+	background: #ccc;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+/* CUSTOM UI Ends */
