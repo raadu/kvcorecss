@@ -4,6 +4,7 @@
     font-size: 17px;
 } */
 
+/* Information Bar Section Start */
 .information-bar {
 	background-color: #181F25;
 	background-image: linear-gradient(to right, #0e1216, #222c34);
@@ -15,7 +16,8 @@
 	font-family: "Playfair Display",Georgia,serif;
 	color: rgba(255,255,255,0.7);
 }
-
+/* Information Bar Section Start */
+/* Introduction Section Start */
 .intro-container {
 	background-color: #181F25;
 	padding: 2%;
@@ -30,6 +32,10 @@
 .image-box {
 	border: 1px solid #ddd;
 	padding: 2%;
+}
+
+.intro-image {
+	width: 100%;
 }
 
 .font-style {
@@ -54,7 +60,7 @@
 	margin-bottom: 60px;
 }
 
-.text-big::after {
+/* .text-big::after {
 	content: "";
 	position: absolute;
 	bottom: -25px;
@@ -64,5 +70,53 @@
 	background: #ccc;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+} */
+/* Introduction Section End */
+/* Home Banner Section Start */
+.image-banner {
+
 }
+
+.overlay {
+	position: absolute;
+	left: 50%;
+	width: 90%;
+	max-width: 800px;
+	top: 50%;
+	z-index: 9;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	text-align: center;
+}
+
+.primary-button {
+		display: inline-block;
+		padding: 10px 30px;
+		color: #fff;
+		font-size: 18px;
+		background: #2499ed;
+		margin-top: 25px;
+		-webkit-transition: all 300ms ease-in-out;
+		transition: all 300ms ease-in-out;
+}
+
+.countInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.banner-text {
+	font-size: 1rem;
+	color: #ffffff;
+}
+/* Home Banner Section End */
+
+
 /* CUSTOM UI Ends */
