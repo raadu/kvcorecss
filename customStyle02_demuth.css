@@ -73,9 +73,6 @@
 } */
 /* Introduction Section End */
 /* Home Banner Section Start */
-.image-banner {
-
-}
 
 .overlay {
 	position: absolute;
@@ -98,6 +95,11 @@
 		margin-top: 25px;
 		-webkit-transition: all 300ms ease-in-out;
 		transition: all 300ms ease-in-out;
+}
+
+.primary-button:hover {
+	color: #2499ed;
+	background: #ffffff;
 }
 
 .countInfo {
