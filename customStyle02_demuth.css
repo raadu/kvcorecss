@@ -17,6 +17,7 @@
 	color: rgba(255,255,255,0.7);
 }
 /* Information Bar Section Start */
+
 /* Introduction Section Start */
 .intro-container {
 	background-color: #181F25;
@@ -57,7 +58,6 @@
 	font-size: 2.5rem;
 	text-align: center;
 	position: relative;
-	margin-bottom: 60px;
 }
 
 /* .text-big::after {
@@ -72,8 +72,8 @@
 	transform: translateX(-50%);
 } */
 /* Introduction Section End */
-/* Home Banner Section Start */
 
+/* Home Banner Section Start */
 .overlay {
 	position: absolute;
 	left: 50%;
@@ -87,14 +87,14 @@
 }
 
 .primary-button {
-		display: inline-block;
-		padding: 10px 30px;
-		color: #fff;
-		font-size: 18px;
-		background: #2499ed;
-		margin-top: 25px;
-		-webkit-transition: all 300ms ease-in-out;
-		transition: all 300ms ease-in-out;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 18px;
+	background: #2499ed;
+	margin-top: 25px;
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
 }
 
 .primary-button:hover {
@@ -119,6 +119,60 @@
 	color: #ffffff;
 }
 /* Home Banner Section End */
+
+/* Featured Areas Start */
+.featured-area {
+	background: url(https://s3.amazonaws.com/kunversion-frontend-externalmedia/kv-custom/SC/demuthrealtygroup.exprealty.com/images/featuredareas-bg.jpg) top right no-repeat;
+    background-size: auto;
+	background-size: cover;
+	padding-bottom: 5%;
+}
+
+.area-textbox {
+	margin: 0 auto;
+}
+
+.area-para {
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+
+.area-search {
+	display: block;
+	position: relative;
+	background: #000;
+}
+
+.area-search:hover::after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border: 1px solid rgba(255,255,255,0.7);
+}
+
+.area-overlay {
+	color: #fff;
+	font-family: "Playfair Display",Georgia,serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 35px;
+	text-align: center;
+	z-index: 9;
+}
+
+.area-image {
+	width: 100%;
+	height: auto;
+	-webkit-filter: opacity(0.8);
+	filter: opacity(0.8);
+}
+/* Featured Areas End */
 
 
 /* CUSTOM UI Ends */
