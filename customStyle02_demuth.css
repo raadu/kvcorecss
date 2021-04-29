@@ -60,17 +60,19 @@
 	position: relative;
 }
 
-/* .text-big::after {
+
+.divider {
 	content: "";
 	position: absolute;
-	bottom: -25px;
-	left: 50%;
-	width: 30px;
+	top: 94px;
+	left: 51%;
+	width: 43px;
 	height: 1px;
 	background: #ccc;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-} */
+}
+
 /* Introduction Section End */
 
 /* Home Banner Section Start */
@@ -128,10 +130,6 @@
 	padding-bottom: 5%;
 }
 
-.area-textbox {
-	margin: 0 auto;
-}
-
 .area-para {
 	font-size: 1.125rem;
 	font-weight: 600;
@@ -174,5 +172,20 @@
 }
 /* Featured Areas End */
 
+/* Instagram Carousal Area Start */
+.insta-image-container {
+
+}
+
+.insta-image-container:hover::after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border: 1px solid rgba(255,255,255,0.7);
+}
+/* Instagram Carousal Area End */
 
 /* CUSTOM UI Ends */
