@@ -1,22 +1,8 @@
 /* CUSTOM UI Starts */
-/* body {
+body {
     font-family: "Lato","Montserrat","Open Sans",Helvetica,sans-serif;
     font-size: 17px;
-} */
-
-/* Information Bar Section Start */
-.information-bar {
-	background-color: #181F25;
-	background-image: linear-gradient(to right, #0e1216, #222c34);
-	text-align: center;
-	padding: 0.5rem;
-	font-size: 2em;
-	font-weight: 400;
-	line-height: 2;
-	font-family: "Playfair Display",Georgia,serif;
-	color: rgba(255,255,255,0.7);
 }
-/* Information Bar Section Start */
 
 /* Introduction Section Start */
 .intro-container {
@@ -72,7 +58,6 @@
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-
 /* Introduction Section End */
 
 /* Home Banner Section Start */
@@ -172,20 +157,64 @@
 }
 /* Featured Areas End */
 
-/* Instagram Carousal Area Start */
-.insta-image-container {
-
+/* Testimonial Area Start */
+.testimonial-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #0e1216, #222c34);
 }
 
-.insta-image-container:hover::after {
-	content: "";
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	right: 15px;
-	bottom: 15px;
-	border: 1px solid rgba(255,255,255,0.7);
+.checkedStar {
+	color: #2499ed;
 }
-/* Instagram Carousal Area End */
+
+.review-text {
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.4;
+	font-family: "Playfair Display",Georgia,serif;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+	font-style: italic;
+}
+
+.reviewer {
+	font-size: 1rem;
+	line-height: 1.4;
+	font-family: "Playfair Display",Georgia,serif;
+	color: #2499ed;
+	opacity: 0.8;
+	text-align: center;
+	font-style: italic;
+}
+/* Testimonial Area End */
+
+/* Owl Carousal CSS Start */
+.owl-carousel .card {
+	border-radius: 10px;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.owl-dots {
+	text-align: center;
+}
+
+.owl-dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin: 0 5px;
+	border: 2px solid #0072bc!important;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+	transition: all 0.5s ease;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+	background: #0072bc!important;
+}
+/* Owl Carousal CSS Start */
 
 /* CUSTOM UI Ends */
