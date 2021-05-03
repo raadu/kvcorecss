@@ -49,17 +49,6 @@ body {
     border-radius: 10px;
 }
 
-/* .area-search:hover::after {
-	content: "";
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	right: 15px;
-	bottom: 15px;
-	border: 1px solid rgba(255,255,255,0.7);
-    border-radius: 10px;
-} */
-
 .area-search::after {
     content: '';
     display: block;
@@ -148,6 +137,8 @@ body {
 
 .about-icon:hover {
     cursor: pointer;
+    background: #151515;
+    transition: 0.5s ease-in;
 }
 
 .about-title {
@@ -165,3 +156,43 @@ body {
     margin-bottom: 30px;
 }
 /* ABOUT US AREA END */
+
+/* GUIDE AREA START */
+.guide-container {
+   padding-top: 2%;
+   padding-bottom: 2%; 
+}
+
+.guide-search {
+    display: block;
+	position: relative;
+	background: #000;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.guide-image {
+    width: 100%;
+	height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.guide-overlay-large {
+    color: #fff;
+	font-family: "Playfair Display",Georgia,serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 35px;
+	text-align: center;
+	z-index: 9;
+}
+
+.guide-search:hover .guide-overlay-large {
+    bottom: 55px;
+    transition: 0.7s ease-in;
+}
+/* GUIDE AREA END */
