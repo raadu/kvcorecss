@@ -84,7 +84,7 @@ body {
     object-fit: cover;
 }
 
-/* Brightness-zoom Container */
+    /* Brightness-zoom Container */
 .img-hover-zoom--brightness img {
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
@@ -117,7 +117,6 @@ body {
 .icons-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .about-icon {
@@ -130,6 +129,7 @@ body {
     color: #fff;
     line-height: 58px;
     font-size: 27px;
+    margin-right: 10px;
     margin-top: 17px;
     margin-bottom: 17px;
     padding-right: 3px;
@@ -196,3 +196,45 @@ body {
     transition: 0.7s ease-in;
 }
 /* GUIDE AREA END */
+
+/* TESTIMONIAL AREA START */
+.testimonial-container {
+    padding: 2%;
+}
+
+.review-text {
+    font-size: 24px;
+    line-height: 44px;
+    color: #18181b;
+    font-weight: 500;
+}
+
+.reviewer-name {
+    font-size: 18px;
+    line-height: 50px;
+    color: #8c8c8c;
+    font-weight: 300;
+}
+
+.onlyname {
+    color: #fd4766;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.reviewer-image {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.reviewer-image:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+/* TESTIMONIAL AREA END */
