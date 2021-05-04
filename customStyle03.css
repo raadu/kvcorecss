@@ -58,7 +58,7 @@ body {
     bottom: 0;
     transition: height 0.5s ease-out;
     background: linear-gradient(180deg,transparent,#fd4766);
-}
+} 
 
 .area-search:hover::after {
     height: 100%;
