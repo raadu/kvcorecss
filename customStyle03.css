@@ -226,12 +226,16 @@ body {
     width: 100%;
     height: 90%;
     border-radius: 10px;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
+    filter: blur(2px) grayscale(100%);
+    -webkit-filter: blur(2px) grayscale(100%);
+    -moz-filter: blur(2px) grayscale(100%);
 }
 
 .reviewer-image:hover {
+    cursor: pointer;
+}
+
+.colorBurst {
     cursor: pointer;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
