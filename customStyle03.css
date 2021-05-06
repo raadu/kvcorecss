@@ -242,3 +242,15 @@ body {
     -moz-filter: grayscale(0%);
 }
 /* TESTIMONIAL AREA END */
+/* VIDEO AREA START */
+.video-area {
+    background: #151515;
+    background-size: auto;
+	background-size: cover;
+}
+
+iframe {
+    width: 90vw;
+    height: calc(100vw/1.8);
+}
+/* VIDEO AREA END */
