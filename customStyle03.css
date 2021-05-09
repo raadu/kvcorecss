@@ -249,8 +249,8 @@ body {
 	background-size: cover;
 }
 
-iframe {
-    width: 90vw;
-    height: calc(100vw/1.8);
+.videoFrame {
+    width: 75vw;
+    height: calc(75vw/2.0);
 }
 /* VIDEO AREA END */
