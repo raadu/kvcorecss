@@ -344,6 +344,73 @@ body {
 }
 /* Owl Carousal CSS Start */
 
+/* ABOUT US AREA START */
+.about-us-area {
+    background-color: #1a1d1f;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 1.2;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    
+}
+
+.red-divider {
+    width: 60px;
+    height: 3px;
+    background-color: #f5245f;
+    text-align: center;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.about-details {
+    font-weight: 400;
+    font-family: 'ralewayregular';
+    font-size: 16px;
+    color: #aaa;
+}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+.readMoreButton {
+	text-align: center;
+	font-size: 19px;
+	color: #ffffff;
+	text-decoration: none !important;
+	outline: none !important;
+    transition: all 0.7s ease-out;
+	background-color: #363635;
+	margin-right: 143px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 2px;
+}
+
+.readMoreButton:hover {
+    background-color: #f5245f;
+}
+/* ABOUT US AREA END */
+
 
 /* VIDEO AREA START */
 .video-area {
