@@ -120,22 +120,41 @@ body {
     grid-row-end: 9;
 }
 
+.textBoxTest {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
 .info-box {
     position: absolute;
     left: 0;
     top: 0;
-    height: 100%;
-    width: 100%;
     padding: 5% 0% 0% 6%;
+    /* height: 100%; */
+    /* width: 100%; */
 }
 
 .info-box:hover {
     cursor: pointer;
 }
 
+/* .category {
+	font-size: 18px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: "Raleway", sans-serif;
+	position: absolute;
+	left: 6%;
+    bottom: 75%;
+	z-index: 9;
+} */
+
 .category {
     position: relative;
-    display: block;
+    /* display: block; */
     font-size: 18px;
     line-height: 1.2em;
     color: #ffffff;
@@ -144,9 +163,22 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+/* .place {
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: "Raleway", sans-serif;
+	position: absolute;
+	left: 6%;
+    bottom: 75%;
+	z-index: 9;
+} */
+
 .place {
     position: relative;
-    display: block;
+    /* display: block; */
     font-size: 30px;
     line-height: 1.2em;
     color: #ffffff;
