@@ -131,30 +131,14 @@ body {
     left: 0;
     top: 0;
     padding: 5% 0% 0% 6%;
-    /* height: 100%; */
-    /* width: 100%; */
 }
 
 .info-box:hover {
     cursor: pointer;
 }
 
-/* .category {
-	font-size: 18px;
-    line-height: 1.2em;
-    color: #ffffff;
-    font-weight: 500;
-    margin-bottom: 8px;
-    font-family: "Raleway", sans-serif;
-	position: absolute;
-	left: 6%;
-    bottom: 75%;
-	z-index: 9;
-} */
-
 .category {
     position: relative;
-    /* display: block; */
     font-size: 18px;
     line-height: 1.2em;
     color: #ffffff;
@@ -163,22 +147,8 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-/* .place {
-    font-size: 30px;
-    line-height: 1.2em;
-    color: #ffffff;
-    font-weight: 500;
-    margin-bottom: 5px;
-    font-family: "Raleway", sans-serif;
-	position: absolute;
-	left: 6%;
-    bottom: 75%;
-	z-index: 9;
-} */
-
 .place {
     position: relative;
-    /* display: block; */
     font-size: 30px;
     line-height: 1.2em;
     color: #ffffff;
@@ -313,6 +283,66 @@ body {
     font-weight: 500;
 }
 /* TESTIMONIAL AREA END */
+
+/* Testimonial Area Start */
+.testimonial-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #0e1216, #222c34);
+}
+
+.checkedStar {
+	color: #2499ed;
+}
+
+.review-text {
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.4;
+	font-family: "Playfair Display",Georgia,serif;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+	font-style: italic;
+}
+
+.reviewer {
+	font-size: 1rem;
+	line-height: 1.4;
+	font-family: "Playfair Display",Georgia,serif;
+	color: #2499ed;
+	opacity: 0.8;
+	text-align: center;
+	font-style: italic;
+}
+/* Testimonial Area End */
+
+/* Owl Carousal CSS Start */
+.owl-carousel .card {
+	border-radius: 10px;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.owl-dots {
+	text-align: center;
+}
+
+.owl-dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin: 0 5px;
+	border: 2px solid #0072bc!important;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+	transition: all 0.5s ease;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+	background: #0072bc!important;
+}
+/* Owl Carousal CSS Start */
 
 
 /* VIDEO AREA START */
