@@ -393,21 +393,52 @@ a:hover {
 }
 
 .readMoreButton {
-	text-align: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 3% 9% 3% 9%;
 	font-size: 19px;
 	color: #ffffff;
 	text-decoration: none !important;
 	outline: none !important;
     transition: all 0.7s ease-out;
 	background-color: #363635;
-	margin-right: 143px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	border-radius: 2px;
 }
 
 .readMoreButton:hover {
     background-color: #f5245f;
+}
+
+.about-listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #363635;
+    border-radius: 24px 0px 0px 24px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.circle-counter {
+    background-color: #f5245f;
+    color: #ffffff;
+    width: 56px; 
+    height: 56px;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.cutout-box {
+    padding: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
 }
 /* ABOUT US AREA END */
 
