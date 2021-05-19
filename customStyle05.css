@@ -286,6 +286,32 @@
 }
 /* ABOUT US AREA END*/
 
+/* HOME BANNER AREA START */
+.home-banner-area {
+    background-color: #FFFFFF;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.banner-subtitle {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/* HOME BANNER AREA END */
+
 /* Testimonial Carousal Area Start */
 .testimonial-container {
 	display: flex;
