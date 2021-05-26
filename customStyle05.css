@@ -4,7 +4,13 @@ body {
 
 /* FEATURED AREA START*/
 .featured-area {
+    padding-left: 7rem;
+    padding-right: 7rem;
     background-color: #FFFFFF;
+    background-image: url("https://jooinn.com/images/starry-sky-5.jpg");
+    background-size:  cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .subtitle {
@@ -20,7 +26,7 @@ body {
 .title {
     font-size: 34px;
     line-height: 1.2em;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: 700;
     text-transform: uppercase
 }
@@ -215,6 +221,8 @@ body {
 /* ABOUT US AREA START*/
 .about-us-container {
     background-color: #FFFFFF;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .vertical-divider {
@@ -319,6 +327,8 @@ body {
 /* BIO AREA START */
 .bio-area {
     background-color: #FFFFFF;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .bio-card {
@@ -330,7 +340,7 @@ body {
 }
 
 .bio-card:hover {
-    background-color: #E39A31;
+    background-color: #24CED8;
 }
 
 .bio-card:hover .bio-name {
@@ -338,7 +348,7 @@ body {
 }
 
 .bio-card:hover .bio-designation {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .bio-image-container {
@@ -376,6 +386,7 @@ body {
     -ms-transform: scale(.95);
     transform: scale(.95);
     transition-duration: .5s;
+    object-fit: cover;
 }
 
 .bio-designation {
@@ -399,6 +410,7 @@ body {
 .bio-icons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .bio-desc {
@@ -408,6 +420,10 @@ body {
 /* BIO AREA END */
 
 /* Testimonial Carousal Area Start */
+.testimonial-section {
+    background-color: #FFFFFF;
+}
+
 .testimonial-container {
 	display: flex;
 	flex-direction: column;
