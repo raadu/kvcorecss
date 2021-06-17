@@ -6,11 +6,11 @@ body {
 .featured-area {
     padding-left: 7rem;
     padding-right: 7rem;
-    background-color: #FFFFFF;
-    background-image: url("https://jooinn.com/images/starry-sky-5.jpg");
+    background-color:#212f3c;
+    /* background-image: url("https://jooinn.com/images/starry-sky-5.jpg");
     background-size:  cover; 
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
 }
 
 .subtitle {
@@ -365,12 +365,12 @@ body {
 }
 
 .bio-image {
-    height: 255px;
+    height: 310px;
     width: 284px;
-    border-radius: 50%;
+    /* border-radius: 50%;
     padding: 0 1.5rem 1.5rem;
     background: rgba(221,221,221,.2);
-        background-clip: border-box;
+        background-clip: border-box; */
     border: 1.5rem solid rgba(0,0,0,.05);
         border-bottom-color: rgba(0, 0, 0, 0.05);
         border-bottom-style: solid;
@@ -414,8 +414,8 @@ body {
 }
 
 .bio-desc {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 /* BIO AREA END */
 
@@ -430,6 +430,31 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-image: linear-gradient(to right, #0e1216, #222c34);
+}
+
+.testimonial-image {
+    height: 255px;
+    width: 284px;
+    border-radius: 50%;
+    padding: 0 1.5rem 1.5rem;
+    background: rgba(221,221,221,.2);
+        background-clip: border-box;
+    border: 1.5rem solid rgba(0,0,0,.05);
+        border-bottom-color: rgba(0, 0, 0, 0.05);
+        border-bottom-style: solid;
+        border-bottom-width: 1.5rem;
+    border-bottom: 0;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+    transition-duration: .5s;
+    object-fit: cover;
 }
 
 .checkedStar {
