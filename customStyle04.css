@@ -211,7 +211,7 @@ body {
 
 
 .agent-image-box {
-    padding-left: 50px;
+    padding-left: 163px;
     padding-right: 20px;
     padding-top: 20px;
 }
@@ -288,11 +288,10 @@ body {
 
 .review-box {
     display: flex;
-    padding-top: 5%;
 }
 
 .review-text-black {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 44px;
     color: #18181b;
     font-weight: 500;
@@ -397,7 +396,11 @@ a:hover {
 }
 /* ABOUT US AREA END */
 
-/* Testimonial Carousal Area Start */
+/* TESTIMONIAL AREA START */
+.testimonial-section {
+    background-color: #FFFFFF;
+}
+
 .testimonial-container {
 	display: flex;
 	flex-direction: column;
@@ -407,7 +410,7 @@ a:hover {
 }
 
 .checkedStar {
-	color: #2499ed;
+	color: #1b2631;
 }
 
 .review-text {
@@ -429,7 +432,37 @@ a:hover {
 	text-align: center;
 	font-style: italic;
 }
-/* Testimonial Carousal Area End */
+
+.bio-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bio-image {
+    height: 255px;
+    width: 284px;
+    border-radius: 50%;
+    padding: 0 1.5rem 1.5rem;
+    background: rgba(221,221,221,.2);
+        background-clip: border-box;
+    border: 1.5rem solid rgba(0,0,0,.06);
+        border-bottom-color: rgba(0, 0, 0, 0.06);
+        border-bottom-style: solid;
+        border-bottom-width: 1.5rem;
+    border-bottom: 0;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -moz-transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -o-transform: scale(.95);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+    transition-duration: .5s;
+    object-fit: cover;
+}
+/* TESTIMONIAL AREA END */
 
 /* Owl Carousal CSS Start */
 .owl-carousel .card {
@@ -456,6 +489,7 @@ a:hover {
 	background: #0072bc!important;
 }
 /* Owl Carousal CSS End */
+
 
 /* VIDEO AREA START */
 .video-area {
