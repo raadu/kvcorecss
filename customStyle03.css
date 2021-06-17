@@ -207,11 +207,15 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(to right, #0e1216, #222c34);
+	background-image: linear-gradient(to right, #FFFFFF,  #d0d3d4 );
+}
+
+.fa.fa-star {
+    color: #1b2631 !important;
 }
 
 .checkedStar {
-	color: #2499ed;
+	color: #1b2631;
 }
 
 .review-text {
@@ -219,7 +223,7 @@ body {
 	font-weight: 400;
 	line-height: 1.4;
 	font-family: "Playfair Display",Georgia,serif;
-	color: rgba(255,255,255,0.8);
+	color:#1b2631;
 	text-align: center;
 	font-style: italic;
 }
@@ -246,8 +250,8 @@ body {
     padding: 0 1.5rem 1.5rem;
     background: rgba(221,221,221,.2);
         background-clip: border-box;
-    border: 1.5rem solid rgba(0,0,0,.05);
-        border-bottom-color: rgba(0, 0, 0, 0.05);
+    border: 1.5rem solid rgba(0,0,0,.06);
+        border-bottom-color: rgba(0, 0, 0, 0.06);
         border-bottom-style: solid;
         border-bottom-width: 1.5rem;
     border-bottom: 0;
